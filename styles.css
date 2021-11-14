@@ -1,0 +1,106 @@
+*,
+ :before,
+ :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    background: #e8e8e8;
+}
+
+#container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #999;
+}
+
+.heading {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.divider {
+    height: 7px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.input {
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
+    width: 100% !important;
+}
+
+.input:hover {
+    border-color: black;
+}
+
+.input:focus {
+    box-shadow: 0px 0px 0px 4px #0040ff66;
+    border-color: transparent;
+}
+
+.btn {
+    padding: 10px 13px;
+    font-size: 16px;
+    border: none;
+    background: #0064ff;
+    color: white;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.btn:focus {
+    box-shadow: 0px 0px 0px 4px #0040ff66;
+}
+
+.message {
+    padding: 10px;
+    background: #686868;
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.message.error {
+    background: #ab0000;
+}
+
+.hljs {
+    font-family: monospace;
+}
+
+sup {
+    font-size: 12px;
+    background: #800;
+    color: white;
+    padding: 3px 5px;
+}
+
+h2 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #0064ff;
+}
+
+h2 a:focus {
+    background: #0064ff;
+    color: #fff;
+}
